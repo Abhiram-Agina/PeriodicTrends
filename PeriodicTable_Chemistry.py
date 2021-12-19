@@ -44,7 +44,7 @@ if nav=="Trends in Periodic Table":
     if graphType=="line":
         p.line(xval, yval1, legend_label='Trend', line_width=2)
     if graphType=="scatter":
-        p.scatter(xval, yval1, legend_label='Trend')
+        p.scatter(xval, yval1, name='Trend')
     if graphType=="vbar":
         p.vbar(x=xval, width=0.1, top=yval1, name='Trend')
      
