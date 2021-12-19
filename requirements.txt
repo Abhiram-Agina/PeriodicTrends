@@ -1,5 +1,5 @@
 matplotlib
 plotly
 numpy
-bokeh==1.0
+bokeh==2.4.1
 mendeleev
