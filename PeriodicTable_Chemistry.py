@@ -46,7 +46,7 @@ if nav=="Trends in Periodic Table":
     if graphType=="scatter":
         p.scatter(xval, yval1, legend_label='Trend')
     if graphType=="vbar":
-        p.vbar(x=xval, width=0.1, top=yval1, legend_label='Trend')
+        p.vbar(x=xval, width=0.1, top=yval1, name='Trend')
      
     st.bokeh_chart(p, use_container_width=True)
 
